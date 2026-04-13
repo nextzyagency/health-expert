@@ -1,4 +1,8 @@
 @import "tailwindcss";
+@source "../**/*.astro";
+@source "../**/*.html";
+@source "../**/*.jsx";
+@source "../**/*.tsx";
 
 @theme {
   --color-primary: #0D1627;
