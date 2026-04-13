@@ -5,8 +5,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://nextzyagency.github.io',
-  base: '/health-expert',
+  // site: 'https://tu-dominio.com', // Descomenta y añade tu dominio real para SEO
   vite: {
     plugins: [tailwindcss()]
   }
