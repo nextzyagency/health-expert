@@ -5,8 +5,17 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig({
-  // site: 'https://tu-dominio.com', // Descomenta y añade tu dominio real para SEO
+  build: {
+    assets: 'assets',
+  },
   vite: {
-    plugins: [tailwindcss()]
+    plugins: [tailwindcss()],
+    build: {
+      rollupOptions: {
+        output: {
+          assetFileNames: 'assets/file-[hash][extname]'
+        }
+      }
+    }
   }
 });
