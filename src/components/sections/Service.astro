@@ -1,0 +1,88 @@
+---
+// src/components/sections/Service.astro
+---
+<section class="py-24 bg-[#F9FAFB] relative overflow-hidden" id="tratamientos">
+  <!-- Soft background shapes -->
+  <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-gold/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3"></div>
+  <div class="absolute bottom-0 left-0 w-[400px] h-[400px] bg-primary/5 rounded-full blur-3xl translate-y-1/2 -translate-x-1/3"></div>
+
+  <div class="max-w-7xl mx-auto px-6 relative z-10">
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <h2 class="reveal text-sm font-semibold uppercase tracking-widest text-gold mb-2">Excelencia Médica</h2>
+      <h3 class="reveal reveal-delay-1 text-3xl md:text-5xl font-heading font-bold text-primary mb-6">Tratamientos de <span class="text-gradient">Rejuvenecimiento Facial</span> y Estética</h3>
+      <p class="reveal reveal-delay-2 text-gray-600 text-lg">
+        Nuestro enfoque prioriza tu bienestar y autoestima. Brindamos soluciones avanzadas de medicina estética diseñadas para devolverte la luminosidad y firmeza, sin alterar la esencia de tu belleza natural.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <!-- Image Side -->
+      <div class="reveal relative">
+        <div class="relative rounded-2xl overflow-hidden shadow-2xl aspect-[4/5] lg:aspect-square">
+          <img src="/imagenes/consultation.png" alt="Cirujano estético en Soledad durante valoración médica experta" class="w-full h-full object-cover object-center" />
+          <div class="absolute inset-0 bg-primary/10"></div>
+        </div>
+        <!-- Decorative Badge -->
+        <div class="absolute -bottom-6 -right-6 bg-white p-4 rounded-xl shadow-xl glass-card flex items-center gap-4 animate-bounce" style="animation-duration: 3s;">
+          <div class="w-12 h-12 bg-gold/10 rounded-full flex items-center justify-center text-gold">
+            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+            </svg>
+          </div>
+          <div>
+            <p class="text-xs text-gray-500 font-medium">Inversión en ti</p>
+            <p class="font-heading font-bold text-primary">Resultados Duraderos</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Content Side - Benefits focused -->
+      <div class="flex flex-col justify-center space-y-8">
+        
+        <div class="reveal">
+          <div class="flex items-start gap-4">
+            <div class="mt-1 bg-primary/5 p-3 rounded-lg text-primary">
+              <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            </div>
+            <div>
+              <h4 class="text-xl font-heading font-bold text-primary mb-2">Juventud Natural Sin Quirófano</h4>
+              <p class="text-gray-600">Alcanza un aspecto descansado e hidratado. Nuestros tratamientos estéticos sin cirugía devuelven el volumen perdido y atenúan líneas de expresión sutilmente.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="reveal reveal-delay-1">
+          <div class="flex items-start gap-4">
+            <div class="mt-1 bg-gold/10 p-3 rounded-lg text-gold-dark">
+              <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+            </div>
+            <div>
+              <h4 class="text-xl font-heading font-bold text-primary mb-2">Recuperación Inmediata</h4>
+              <p class="text-gray-600">Sabemos que tu tiempo es vital. Los procedimientos son mínimamente invasivos, permitiéndote retomar tus actividades diarias el mismo día con total normalidad.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="reveal reveal-delay-2">
+          <div class="flex items-start gap-4">
+            <div class="mt-1 bg-primary/5 p-3 rounded-lg text-primary">
+              <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/></svg>
+            </div>
+            <div>
+              <h4 class="text-xl font-heading font-bold text-primary mb-2">Seguridad y Confianza Total</h4>
+              <p class="text-gray-600">Al ser evaluada directamente por un Cirujano estético en Soledad, garantizamos protocolos estrictos de salubridad y productos de la más alta calidad mundial.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="reveal reveal-delay-3 pt-4">
+          <a href="https://wa.me/573135798390?text=Hola! Vengo de la página web y quiero conocer más sobre sus servicios de rejuvenecimiento facial." target="_blank" class="inline-flex items-center gap-2 group text-primary font-semibold hover:text-gold-dark transition-colors">
+            Consultar todos nuestros beneficios
+            <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>

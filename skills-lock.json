@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "skills": {
+    "seo-audit": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "computedHash": "2e91c1a968d435712d1deb3845a35021842c168f132f81027c071ad43f78cb0a"
+    },
+    "web-design-guidelines": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "computedHash": "f3bc47f890f42a44db1007ab390709ec368e4b8c089baee6b0007182236ac474"
+    }
+  }
+}

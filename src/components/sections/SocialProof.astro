@@ -1,0 +1,49 @@
+---
+// src/components/sections/SocialProof.astro
+---
+<section class="py-24 bg-white relative">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="flex flex-col lg:flex-row items-center gap-16">
+      
+      <!-- Content Side -->
+      <div class="w-full lg:w-1/2">
+        <h2 class="reveal text-sm font-semibold uppercase tracking-widest text-gold mb-2">Casos Reales, Cambios Reales</h2>
+        <h3 class="reveal reveal-delay-1 text-3xl md:text-5xl font-heading font-bold text-primary mb-6">El arte de revelar la <span class="bg-primary text-white px-2 rounded-sm rotate-[-2deg] inline-block mt-2">mejor versión</span> de ti misma</h3>
+        
+        <p class="reveal reveal-delay-2 text-gray-600 text-lg mb-8">
+          Nuestras pacientes no buscan parecer alguien diferente, buscan sentirse frescas, plenas y seguras. La precisión clínica combinada con un ojo artístico nos permite lograr mejoras notables pero indetectables.
+        </p>
+
+        <!-- Testimonial Quote -->
+        <div class="reveal reveal-delay-3 bg-gray-50 border-l-4 border-gold p-6 rounded-r-xl">
+          <svg class="w-10 h-10 text-gold/20 mb-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+          <p class="text-gray-700 italic font-medium mb-4">"Llegué buscando un cambio rápido porque sentía mi rostro muy cansado. La atención del doctor fue increíble. Mis amigas notan que me veo súper radiante pero nadie advierte exactamente qué me hice. Ese es el mejor resultado."</p>
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center text-primary font-bold">M.V</div>
+            <div>
+              <p class="font-heading font-bold text-primary text-sm">María V.</p>
+              <p class="text-xs text-gray-500">Paciente Verificada</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Image Side (Social Proof Visuals) -->
+      <div class="w-full lg:w-1/2 reveal reveal-delay-2 relative">
+        <div class="grid grid-cols-1 gap-6 relative">
+          <!-- Main before/after or aesthetic result -->
+          <div class="rounded-2xl overflow-hidden shadow-[0_20px_50px_rgba(13,22,39,0.1)]">
+            <img src="/imagenes/social.png" alt="Resultados naturales de rejuvenecimiento facial en paciente de estética" class="w-full h-auto object-cover hover:scale-105 transition-transform duration-700" />
+          </div>
+          
+          <!-- Satisfaction Badge -->
+          <div class="absolute -top-5 -left-5 bg-white p-4 rounded-xl shadow-lg border border-gray-100 flex flex-col items-center justify-center w-28 h-28">
+            <span class="text-3xl font-heading font-black text-gold">100%</span>
+            <span class="text-xs text-center text-gray-500 uppercase tracking-widest mt-1">Satisfechas</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>

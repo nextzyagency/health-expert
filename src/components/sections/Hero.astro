@@ -1,0 +1,54 @@
+---
+// src/components/sections/Hero.astro
+---
+<section class="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
+  <!-- Background Image with Overlay -->
+  <div class="absolute inset-0 z-0">
+    <img src="/imagenes/hero.png" alt="Interior moderno de clínica de medicina estética en Soledad" class="w-full h-full object-cover object-center" />
+    <div class="absolute inset-0 bg-primary/40"></div>
+    <div class="absolute inset-0 bg-gradient-to-t from-white via-white/10 to-transparent"></div>
+  </div>
+
+  <div class="relative z-10 max-w-7xl mx-auto px-6 text-center text-white">
+    <!-- Star Label -->
+    <div class="reveal flex justify-center mb-6">
+      <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass-card text-white border-white/20 text-sm font-medium">
+        <svg class="w-4 h-4 text-gold-light" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+          <path d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z"/>
+        </svg>
+        4.8/5 Estrellas según nuestros pacientes
+      </span>
+    </div>
+
+    <!-- H1 - SEO Optimized -->
+    <h1 class="reveal reveal-delay-1 text-5xl md:text-7xl font-bold font-heading mb-6 drop-shadow-lg leading-tight text-white">
+      Clínica de <span class="bg-gradient-to-r from-gold-light to-gold bg-clip-text text-transparent">Medicina Estética</span> <br class="hidden md:block" />y Cirugía en Soledad
+    </h1>
+
+    <!-- Subtitle - Benefits focus -->
+    <p class="reveal reveal-delay-2 text-lg md:text-2xl font-light mb-10 max-w-3xl mx-auto text-white/90 drop-shadow">
+      Recupera tu juventud y confianza con resultados naturales. Tratamientos faciales y corporales avanzados con el respaldo de un cirujano experto.
+    </p>
+
+    <!-- Main CTA -->
+    <div class="reveal reveal-delay-3 flex flex-col sm:flex-row items-center justify-center gap-4">
+      <a href="https://wa.me/573135798390?text=Hola! Vengo de la página web y quiero agendar una valoración u obtener más información." target="_blank" class="px-8 py-4 bg-gold text-primary rounded-full font-semibold text-lg hover:bg-gold-light transition-all flex items-center gap-2 shadow-[0_0_20px_rgba(224,200,136,0.3)] hover:shadow-[0_0_30px_rgba(224,200,136,0.5)] hover:-translate-y-1">
+        <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+        </svg>
+        Agenda tu Valoración
+      </a>
+      <p class="text-sm font-medium text-white/80 mt-4 sm:mt-0 glass-card px-4 py-2 rounded-full border-white/20">
+        📍 Nte. Centro Histórico
+      </p>
+    </div>
+  </div>
+
+  <!-- Scroll Down indicator -->
+  <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce z-10 text-primary">
+    <span class="text-xs font-semibold tracking-widest uppercase mb-2">Explorar</span>
+    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="m6 9 6 6 6-6"/>
+    </svg>
+  </div>
+</section>

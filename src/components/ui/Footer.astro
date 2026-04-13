@@ -1,0 +1,65 @@
+---
+// src/components/ui/Footer.astro
+---
+<footer class="bg-primary text-white pt-16 pb-8 border-t border-white/10">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12 border-b border-white/10 pb-12">
+      
+      <!-- Brand Column -->
+      <div class="lg:col-span-1">
+        <a href="/" class="text-3xl font-heading font-bold text-white flex items-center gap-2 mb-6">
+          <svg class="w-8 h-8 text-gold" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/>
+          </svg>
+          Health Experts
+        </a>
+        <p class="text-white/60 font-light pr-4">La mejor experiencia en medicina estética. Belleza segura, consciente y con resultados visibles respaldados médicamente.</p>
+      </div>
+
+      <!-- Links Column -->
+      <div>
+        <h4 class="font-heading font-semibold text-lg mb-6 text-gold-light">Enlaces Útiles</h4>
+        <ul class="space-y-4">
+          <li><a href="#" class="text-white/70 hover:text-white transition-colors">Inicio</a></li>
+          <li><a href="#tratamientos" class="text-white/70 hover:text-white transition-colors">Tratamientos</a></li>
+          <li><a href="#preguntas-frecuentes" class="text-white/70 hover:text-white transition-colors">Preguntas Frecuentes</a></li>
+          <li><a href="https://wa.me/573135798390" target="_blank" class="text-white/70 hover:text-white transition-colors">Agendar Cita</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Column -->
+      <div class="lg:col-span-2">
+        <h4 class="font-heading font-semibold text-lg mb-6 text-gold-light">Visítanos</h4>
+        <ul class="space-y-4">
+          <li class="flex items-start gap-4">
+            <svg class="w-6 h-6 text-gold mt-1 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            <div>
+              <p class="text-white/90 font-medium">Ubicación</p>
+              <p class="text-white/60 font-light">cra20 #74-20 soledad</p>
+            </div>
+          </li>
+          <li class="flex items-start gap-4">
+            <svg class="w-6 h-6 text-gold mt-1 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <div>
+              <p class="text-white/90 font-medium">Horario de Atención</p>
+              <p class="text-white/60 font-light">Lunes a Sábado: Abierto · Cierra a las 6:00 p.m.</p>
+            </div>
+          </li>
+          <li class="flex items-start gap-4">
+             <svg class="w-6 h-6 text-gold mt-1 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <div>
+              <p class="text-white/90 font-medium">WhatsApp Directo</p>
+              <a href="https://wa.me/573135798390" target="_blank" class="text-white/60 font-light hover:text-gold transition-colors">313 5798390</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Bottom -->
+    <div class="flex flex-col md:flex-row justify-between items-center text-sm text-white/40">
+      <p>&copy; {new Date().getFullYear()} Health Experts. Todos los derechos reservados.</p>
+      <p class="mt-2 md:mt-0">Sitio de alta conversión y SEO.</p>
+    </div>
+  </div>
+</footer>

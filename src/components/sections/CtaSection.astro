@@ -1,0 +1,31 @@
+---
+// src/components/sections/CtaSection.astro
+---
+<section class="py-24 relative overflow-hidden bg-primary w-full">
+  <!-- Subtle pattern background -->
+  <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(circle at 2px 2px, white 1px, transparent 0); background-size: 32px 32px;"></div>
+  
+  <div class="max-w-4xl mx-auto px-6 relative z-10 text-center">
+    <div class="inline-block mb-6 px-4 py-1 rounded-full border border-gold/30 bg-gold/10 text-gold-light text-sm font-semibold tracking-widest uppercase reveal">
+      Valoración Especializada
+    </div>
+    
+    <h2 class="reveal reveal-delay-1 text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-white mb-6 leading-tight">
+      Da el primer paso hacia tu <span class="bg-gradient-to-r from-gold-light to-gold bg-clip-text text-transparent">mejor versión</span> hoy mismo
+    </h2>
+    
+    <p class="reveal reveal-delay-2 text-xl text-white/80 mb-10 max-w-2xl mx-auto font-light">
+      Nuestra agenda para esta semana tiene <strong class="text-white font-semibold">cupos limitados</strong>. Asegura tu espacio y descubre los tratamientos idóneos para ti en una valoración clínica personalizada.
+    </p>
+    
+    <div class="reveal reveal-delay-3 flex flex-col sm:flex-row justify-center items-center gap-4">
+      <a href="https://wa.me/573135798390?text=Hola! Vengo de la página web y quiero agendar mi valoración antes de que se agoten los cupos." target="_blank" class="px-10 py-5 bg-gold text-primary rounded-full font-bold text-lg hover:bg-gold-light hover:scale-105 transition-all w-full sm:w-auto shadow-[0_0_30px_rgba(224,200,136,0.3)] hover:shadow-[0_0_40px_rgba(224,200,136,0.6)] flex items-center justify-center gap-2">
+        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+        </svg>
+        Reservar Mi Cita Ahora
+      </a>
+      <p class="text-white/60 text-sm mt-4 sm:mt-0 px-4">Respuesta rápida vía WhatsApp</p>
+    </div>
+  </div>
+</section>
