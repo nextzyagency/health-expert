@@ -1,21 +1,10 @@
-// @ts-check
 import { defineConfig } from 'astro/config';
-
-import tailwindcss from '@tailwindcss/vite';
+import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
   build: {
     assets: 'assets',
   },
-  vite: {
-    plugins: [tailwindcss()],
-    build: {
-      rollupOptions: {
-        output: {
-          assetFileNames: 'assets/file-[hash][extname]'
-        }
-      }
-    }
-  }
+  integrations: [tailwind()]
 });

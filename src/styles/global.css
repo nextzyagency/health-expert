@@ -1,17 +1,6 @@
-@import "tailwindcss";
-@source "../**/*.astro";
-@source "../**/*.html";
-@source "../**/*.jsx";
-@source "../**/*.tsx";
-
-@theme {
-  --color-primary: #0D1627;
-  --color-gold: #C2A25B;
-  --color-gold-light: #E0C888;
-  --color-gold-dark: #91773E;
-  --font-sans: 'Inter', sans-serif;
-  --font-heading: 'Outfit', sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @layer base {
   html {
