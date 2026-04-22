@@ -1,5 +1,7 @@
 ---
 // src/components/sections/SocialProof.astro
+import { Image } from 'astro:assets';
+import socialImg from '../../assets/imagenes/social.png';
 ---
 <section class="py-24 bg-white relative">
   <div class="max-w-7xl mx-auto px-6">
@@ -33,7 +35,7 @@
         <div class="grid grid-cols-1 gap-6 relative">
           <!-- Main before/after or aesthetic result -->
           <div class="rounded-2xl overflow-hidden shadow-[0_20px_50px_rgba(13,22,39,0.1)]">
-            <img src="/imagenes/social.png" alt="Resultados naturales de rejuvenecimiento facial en paciente de estética" title="Resultados naturales de rejuvenecimiento facial en paciente de estética" loading="lazy" class="w-full h-auto object-cover hover:scale-105 transition-transform duration-700" />
+            <Image src={socialImg} alt="Resultados naturales de rejuvenecimiento facial en paciente de estética" title="Resultados naturales de rejuvenecimiento facial en paciente de estética" loading="lazy" class="w-full h-auto object-cover hover:scale-105 transition-transform duration-700" />
           </div>
           
           <!-- Satisfaction Badge -->

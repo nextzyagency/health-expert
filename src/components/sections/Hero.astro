@@ -1,10 +1,12 @@
 ---
 // src/components/sections/Hero.astro
+import { Image } from 'astro:assets';
+import heroImg from '../../assets/imagenes/hero.png';
 ---
 <section class="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
   <!-- Background Image with Overlay -->
   <div class="absolute inset-0 z-0">
-    <img src="/imagenes/hero.png" alt="Interior moderno de clínica de medicina estética en Soledad" title="Interior moderno de clínica de medicina estética en Soledad" loading="eager" class="w-full h-full object-cover object-center" />
+    <Image src={heroImg} alt="Interior moderno de clínica de medicina estética en Soledad" title="Interior moderno de clínica de medicina estética en Soledad" loading="eager" class="w-full h-full object-cover object-center" />
     <div class="absolute inset-0 bg-primary/40"></div>
     <div class="absolute inset-0 bg-gradient-to-t from-white via-white/10 to-transparent"></div>
   </div>
